@@ -53,6 +53,8 @@ The following tables in the XDF contain LOAD axis data and have been updated to 
 
 | Table Name | Address | Elements | Description |
 |------------|---------|----------|-------------|
+| Fuel enrichment - P/T - LOAD (kPa) | 0x8E03 | 16 | LOAD axis for fuel enrichment partial throttle tables |
+| Ignition - P/T - LOAD (kPa) | 0x924F | 16 | LOAD axis for ignition partial throttle tables |
 | 0x8D21 - 4x1 - Load (kPa) | 0x8D23 | 4 | LOAD axis used in boost control |
 | 0x8D44 - 4x1 - Load (kPa) | 0x8D46 | 4 | LOAD axis used in wall film enrichment |
 | 0xA188 - 6x1 - Load (kPa) | 0xA18A | 6 | LOAD axis used in various tables |
