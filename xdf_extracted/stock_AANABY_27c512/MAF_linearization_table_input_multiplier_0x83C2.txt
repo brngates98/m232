@@ -1,0 +1,4 @@
+MAF linearization table input multiplier
+Address: 0x83C2
+Raw value: 222 (0xDE)
+Equation: X*POW(2;Y)

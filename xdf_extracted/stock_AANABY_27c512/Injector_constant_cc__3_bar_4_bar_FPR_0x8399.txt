@@ -1,0 +1,6 @@
+Injector constant (cc @ 3 bar), 4 bar FPR
+Address: 0x8399
+Raw value: 160 (0xA0)
+Units: cc/min
+Equation: 360/SQR(4/3.8)/(X/128)
+Calculated value: 280.7077

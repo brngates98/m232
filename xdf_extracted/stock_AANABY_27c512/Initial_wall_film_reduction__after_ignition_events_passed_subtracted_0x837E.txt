@@ -1,0 +1,6 @@
+Initial wall film reduction % after ignition events passed (subtracted)
+Address: 0x837E
+Raw value: 230 (0xE6)
+Units: %
+Equation: X/256*100
+Calculated value: 89.8438

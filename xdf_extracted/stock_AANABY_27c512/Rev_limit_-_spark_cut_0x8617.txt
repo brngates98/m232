@@ -1,0 +1,5 @@
+Rev limit - spark cut
+Address: 0x8617
+Raw value: 200 (0xC8)
+Equation: X*40
+Calculated value: 8000.0000

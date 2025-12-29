@@ -1,0 +1,5 @@
+Launch control IGN angle
+Address: 0x862B
+Raw value: 41 (0x29)
+Equation: 0.75*(X-30)
+Calculated value: 8.2500

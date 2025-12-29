@@ -1,0 +1,5 @@
+Rev limit - fuel cut - start rpm
+Address: 0x8395
+Raw value: 1649 (0x671)
+Equation: 11875000/X
+Calculated value: 7201.3341

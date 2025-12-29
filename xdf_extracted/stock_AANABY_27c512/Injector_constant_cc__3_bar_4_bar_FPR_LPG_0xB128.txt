@@ -1,0 +1,5 @@
+Injector constant (cc @ 3 bar), 4 bar FPR (LPG)
+Address: 0xB128
+Raw value: 2 (0x2)
+Equation: 360/SQR(4/3.8)/(X/128)
+Calculated value: 22456.6142

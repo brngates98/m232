@@ -1,0 +1,5 @@
+Launch control IGN cut RPM
+Address: 0x866E
+Raw value: 180 (0xB4)
+Equation: X*40
+Calculated value: 7200.0000

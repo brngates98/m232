@@ -1,0 +1,4 @@
+MAF value multiplier
+Address: 0x837C
+Raw value: 86 (0x56)
+Equation: X*POW(2;Y)

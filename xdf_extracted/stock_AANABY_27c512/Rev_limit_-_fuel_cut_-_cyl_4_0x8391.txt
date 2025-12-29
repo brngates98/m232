@@ -1,0 +1,5 @@
+Rev limit - fuel cut - cyl 4
+Address: 0x8391
+Raw value: 1627 (0x65B)
+Equation: 11875000/X
+Calculated value: 7298.7093

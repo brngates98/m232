@@ -1,0 +1,5 @@
+Wall film enrichment taper ignition count, includes all previous ones
+Address: 0x837F
+Raw value: 1 (0x1)
+Equation: X
+Calculated value: 1.0000

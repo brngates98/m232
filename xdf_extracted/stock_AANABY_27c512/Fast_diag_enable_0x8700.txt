@@ -1,0 +1,5 @@
+Fast diag enable
+Address: 0x8700
+Raw value: 125 (0x7D)
+Equation: X
+Calculated value: 125.0000

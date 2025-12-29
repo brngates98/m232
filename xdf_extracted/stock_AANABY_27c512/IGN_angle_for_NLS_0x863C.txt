@@ -1,0 +1,5 @@
+IGN angle for NLS
+Address: 0x863C
+Raw value: 180 (0xB4)
+Equation: 0.75*(X-30)
+Calculated value: 112.5000

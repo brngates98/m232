@@ -1,0 +1,5 @@
+MAF linearization table output addend
+Address: 0x837A
+Raw value: 398 (0x18E)
+Equation: X
+Calculated value: 398.0000
