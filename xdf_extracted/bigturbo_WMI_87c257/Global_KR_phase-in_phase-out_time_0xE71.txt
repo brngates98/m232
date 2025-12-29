@@ -1,0 +1,5 @@
+Global KR phase-in/phase-out time
+Address: 0xE71
+Raw value: 100 (0x64)
+Equation: X
+Calculated value: 100.0000

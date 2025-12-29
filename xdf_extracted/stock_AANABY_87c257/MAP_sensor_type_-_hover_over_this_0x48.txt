@@ -1,0 +1,5 @@
+MAP sensor type - hover over this
+Address: 0x48
+Raw value: 4 (0x4)
+Equation: X
+Calculated value: 4.0000

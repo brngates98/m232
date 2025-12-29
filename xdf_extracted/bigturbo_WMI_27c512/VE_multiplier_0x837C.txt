@@ -1,0 +1,4 @@
+VE multiplier
+Address: 0x837C
+Raw value: 94 (0x5E)
+Equation: X*POW(2;Y)

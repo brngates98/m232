@@ -1,0 +1,5 @@
+Consumption signal
+Address: 0x8415
+Raw value: 137 (0x89)
+Equation: X
+Calculated value: 137.0000

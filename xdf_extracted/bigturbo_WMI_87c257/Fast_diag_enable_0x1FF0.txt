@@ -1,0 +1,5 @@
+Fast diag enable
+Address: 0x1FF0
+Raw value: 0 (0x0)
+Equation: X
+Calculated value: 0.0000

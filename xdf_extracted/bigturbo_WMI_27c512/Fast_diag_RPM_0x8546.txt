@@ -1,0 +1,5 @@
+Fast diag RPM
+Address: 0x8546
+Raw value: 50 (0x32)
+Equation: X*40
+Calculated value: 2000.0000

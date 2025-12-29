@@ -1,0 +1,5 @@
+Vmax limit
+Address: 0x8480
+Raw value: 200 (0xC8)
+Equation: X*2
+Calculated value: 400.0000

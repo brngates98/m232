@@ -1,0 +1,5 @@
+Baro pressure with faulty sensor
+Address: 0x838A
+Raw value: 186 (0xBA)
+Equation: ((X/2)+127)*110*0.04
+Calculated value: 968.0000

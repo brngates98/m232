@@ -1,0 +1,5 @@
+Ignition boost minimum RPM
+Address: 0x83A9
+Raw value: 100 (0x64)
+Equation: X*40
+Calculated value: 4000.0000

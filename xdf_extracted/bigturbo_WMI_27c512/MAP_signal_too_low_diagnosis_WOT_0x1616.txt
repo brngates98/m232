@@ -1,0 +1,5 @@
+MAP signal too low diagnosis (WOT)
+Address: 0x1616
+Raw value: 116 (0x74)
+Units: kPa
+Equation: X/1.03515625*THAT(8754;0;0;FALSE) + THAT(18181;0;0;FALSE)

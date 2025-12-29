@@ -1,0 +1,5 @@
+Launch RPM limit - fuel cut
+Address: 0x860A
+Raw value: 1915 (0x77B)
+Equation: 11875000/X
+Calculated value: 6201.0444

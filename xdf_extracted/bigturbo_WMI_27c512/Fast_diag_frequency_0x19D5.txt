@@ -1,0 +1,6 @@
+Fast diag frequency
+Address: 0x19D5
+Raw value: 240 (0xF0)
+Units: hz
+Equation: 1/X*250
+Calculated value: 1.0417

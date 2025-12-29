@@ -1,0 +1,5 @@
+min RPM for NLS
+Address: 0x8636
+Raw value: 192 (0xC0)
+Equation: X*40
+Calculated value: 7680.0000

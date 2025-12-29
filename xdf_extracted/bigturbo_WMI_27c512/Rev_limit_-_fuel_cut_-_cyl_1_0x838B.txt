@@ -1,0 +1,5 @@
+Rev limit - fuel cut - cyl 1
+Address: 0x838B
+Raw value: 1522 (0x5F2)
+Equation: 11875000/X
+Calculated value: 7802.2339

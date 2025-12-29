@@ -1,0 +1,4 @@
+MAP sensor type (factor - read only)
+Address: 0x48
+Raw value: 4 (0x4)
+Equation: IF(X==1; 50; IF(X==2; 65.88235; IF(X==3;62.89308;82.61049)))/51

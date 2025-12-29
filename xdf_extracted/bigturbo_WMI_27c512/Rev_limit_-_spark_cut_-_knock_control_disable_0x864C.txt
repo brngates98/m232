@@ -1,0 +1,5 @@
+Rev limit - spark cut - knock control disable
+Address: 0x864C
+Raw value: 188 (0xBC)
+Equation: X*40
+Calculated value: 7520.0000

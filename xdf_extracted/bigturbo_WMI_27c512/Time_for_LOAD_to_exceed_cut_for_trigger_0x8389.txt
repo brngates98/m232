@@ -1,0 +1,6 @@
+Time for LOAD to exceed cut for trigger
+Address: 0x8389
+Raw value: 50 (0x32)
+Units: sec
+Equation: X/100
+Calculated value: 0.5000
