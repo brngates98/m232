@@ -34,11 +34,12 @@ TABLES UPDATED:
 --------------
 Table Name                              | Address | Values | Purpose
 ----------------------------------------|---------|--------|---------------------------
-Fuel enrichment - P/T - LOAD (kPa)     | 0x8E03  | 16     | Fuel enrichment P/T axis
-Ignition - P/T - LOAD (kPa)            | 0x924F  | 16     | Ignition P/T axis
 0x8D21 - 4x1 - Load (kPa)              | 0x8D23  | 4      | Boost control axis
 0x8D44 - 4x1 - Load (kPa)              | 0x8D46  | 4      | Wall film enrichment axis
 0xA188 - 6x1 - Load (kPa)              | 0xA18A  | 6      | General tuning axis
+
+NOTE: P/T (partial throttle) LOAD axes at 0x8E03 and 0x924F use differential
+encoding and are NOT converted to kPa. They continue to show raw LOAD values.
 
 TECHNICAL DETAILS:
 -----------------

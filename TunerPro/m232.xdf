@@ -362,7 +362,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x41AD" flags="0x0">
-    <title>Fuel enrichment - P/T - LOAD (kPa)</title>
+    <title>Fuel enrichment - P/T - LOAD</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -404,12 +404,11 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x8E03" mmedelementsizebits="8" mmedrowcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>kPa</units>
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>2</outputtype>
-      <MATH equation="(X*THAT(8754;0;0;FALSE)) + THAT(18181;0;0;FALSE)">
+      <MATH equation="X">
         <VAR id="X" />
       </MATH>
       <MATH row="1" equation="CELL(ROW()+1;COL();FALSE) - (THIS())" />
@@ -1109,7 +1108,7 @@
     </XDFAXIS>
   </XDFTABLE>
   <XDFTABLE uniqueid="0x226F" flags="0x0">
-    <title>Ignition - P/T - LOAD (kPa)</title>
+    <title>Ignition - P/T - LOAD</title>
     <CATEGORYMEM index="0" category="1" />
     <CATEGORYMEM index="1" category="10" />
     <XDFAXIS id="x" uniqueid="0x0">
@@ -1151,12 +1150,11 @@
     </XDFAXIS>
     <XDFAXIS id="z">
       <EMBEDDEDDATA mmedaddress="0x924F" mmedelementsizebits="8" mmedrowcount="16" mmedmajorstridebits="0" mmedminorstridebits="0" />
-      <units>kPa</units>
       <decimalpl>2</decimalpl>
       <min>0.000000</min>
       <max>255.000000</max>
       <outputtype>2</outputtype>
-      <MATH equation="(X*THAT(8754;0;0;FALSE)) + THAT(18181;0;0;FALSE)">
+      <MATH equation="X">
         <VAR id="X" />
       </MATH>
       <MATH row="1" equation="CELL(ROW()+1;COL();FALSE) - (THIS())" />
