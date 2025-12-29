@@ -1,0 +1,5 @@
+Lambda default trim - 0x2B02
+Address: 0x8416
+Raw value: 128 (0x80)
+Equation: X
+Calculated value: 128.0000

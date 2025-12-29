@@ -1,0 +1,5 @@
+Lambda max. LTFT for diagnosis
+Address: 0x844E
+Raw value: 255 (0xFF)
+Equation: X/128*100-100
+Calculated value: 99.2188

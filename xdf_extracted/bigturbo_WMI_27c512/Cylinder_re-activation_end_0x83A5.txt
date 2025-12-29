@@ -1,0 +1,5 @@
+Cylinder re-activation end
+Address: 0x83A5
+Raw value: 23 (0x17)
+Equation: X*40
+Calculated value: 920.0000

@@ -1,0 +1,5 @@
+Global KR limit
+Address: 0x44D
+Raw value: 10 (0xA)
+Equation: X*0.5
+Calculated value: 5.0000

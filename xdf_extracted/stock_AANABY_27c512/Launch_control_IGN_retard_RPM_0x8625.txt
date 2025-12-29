@@ -1,0 +1,5 @@
+Launch control IGN retard RPM
+Address: 0x8625
+Raw value: 113 (0x71)
+Equation: X*40
+Calculated value: 4520.0000

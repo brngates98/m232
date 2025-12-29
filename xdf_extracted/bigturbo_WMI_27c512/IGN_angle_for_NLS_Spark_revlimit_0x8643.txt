@@ -1,0 +1,5 @@
+IGN angle for NLS/Spark revlimit
+Address: 0x8643
+Raw value: 82 (0x52)
+Equation: 0.75*(X-30)
+Calculated value: 39.0000

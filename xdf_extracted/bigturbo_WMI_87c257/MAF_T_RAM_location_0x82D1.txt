@@ -1,0 +1,5 @@
+MAF_T RAM location
+Address: 0x82D1
+Raw value: 0 (0x0)
+Equation: X
+Calculated value: 0.0000

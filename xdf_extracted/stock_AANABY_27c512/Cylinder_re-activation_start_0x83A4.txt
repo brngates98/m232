@@ -1,0 +1,4 @@
+Cylinder re-activation start
+Address: 0x83A4
+Raw value: 12 (0xC)
+Equation: X*40+Y*40

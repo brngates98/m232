@@ -1,0 +1,5 @@
+Speed for launch control #2
+Address: 0x7E7C
+Raw value: 2 (0x2)
+Equation: X*2
+Calculated value: 4.0000

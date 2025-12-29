@@ -1,0 +1,5 @@
+HFM5 diagnosis - RPM
+Address: 0x7F29
+Raw value: 2 (0x2)
+Equation: X*40
+Calculated value: 80.0000

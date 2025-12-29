@@ -1,0 +1,5 @@
+reqboost RAM location
+Address: 0x1B68
+Raw value: 228 (0xE4)
+Equation: X
+Calculated value: 228.0000

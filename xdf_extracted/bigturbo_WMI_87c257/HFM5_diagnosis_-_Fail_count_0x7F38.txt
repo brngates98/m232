@@ -1,0 +1,5 @@
+HFM5 diagnosis - Fail count
+Address: 0x7F38
+Raw value: 2 (0x2)
+Equation: X
+Calculated value: 2.0000

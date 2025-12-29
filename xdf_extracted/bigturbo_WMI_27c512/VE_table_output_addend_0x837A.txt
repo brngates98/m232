@@ -1,0 +1,5 @@
+VE table output addend
+Address: 0x837A
+Raw value: 378 (0x17A)
+Equation: X
+Calculated value: 378.0000

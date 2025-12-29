@@ -1,0 +1,5 @@
+min TPS for NLS
+Address: 0x862F
+Raw value: 217 (0xD9)
+Equation: X*0.416
+Calculated value: 90.2720

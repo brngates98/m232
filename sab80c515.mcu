@@ -1,0 +1,97 @@
+; SAB80C515 MCU Definition File for disasm51
+; Siemens SAB80C515 8-bit CMOS Single-Chip Microcontroller
+; Based on Intel 8051 architecture with extensions
+
+; Standard 8051 SFRs
+P0		SFR	80h	; Port 0
+SP		SFR	81h	; Stack Pointer
+DPL		SFR	82h	; Data Pointer Low
+DPH		SFR	83h	; Data Pointer High
+PCON		SFR	87h	; Power Control
+TCON		SFR	88h	; Timer Control
+TMOD		SFR	89h	; Timer Mode
+TL0		SFR	8Ah	; Timer 0 Low Byte
+TL1		SFR	8Bh	; Timer 1 Low Byte
+TH0		SFR	8Ch	; Timer 0 High Byte
+TH1		SFR	8Dh	; Timer 1 High Byte
+P1		SFR	90h	; Port 1
+SCON		SFR	98h	; Serial Control
+SBUF		SFR	99h	; Serial Buffer
+P2		SFR	0A0h	; Port 2
+IEN0		SFR	0A8h	; Interrupt Enable 0 (same as IE)
+IE		SFR	0A8h	; Interrupt Enable
+IEN1		SFR	0A9h	; Interrupt Enable 1 (Extended)
+P3		SFR	0B0h	; Port 3
+IP		SFR	0B8h	; Interrupt Priority
+IPH		SFR	0B9h	; Interrupt Priority High (Extended)
+PSW		SFR	0D0h	; Program Status Word
+ACC		SFR	0E0h	; Accumulator
+B		SFR	0F0h	; B Register
+
+; SAB80C515 Extended SFRs
+IRCON		SFR	0C0h	; Interrupt Control
+CCEN		SFR	0C1h	; Compare/Capture Enable
+CCL1		SFR	0C2h	; Compare/Capture Low 1
+CCH1		SFR	0C3h	; Compare/Capture High 1
+CCL2		SFR	0C4h	; Compare/Capture Low 2
+CCH2		SFR	0C5h	; Compare/Capture High 2
+CCL3		SFR	0C6h	; Compare/Capture Low 3
+CCH3		SFR	0C7h	; Compare/Capture High 3
+ADCON		SFR	0D8h	; A/D Converter Control
+ADDAT		SFR	0D9h	; A/D Converter Data
+DAPR		SFR	0DAh	; D/A Converter Program Register
+P4		SFR	0E8h	; Port 4
+P5		SFR	0F8h	; Port 5
+
+; Timer 2 (Extended Timer)
+T2CON		SFR	0C8h	; Timer 2 Control
+RCAP2L		SFR	0CAh	; Timer 2 Capture Register Low
+RCAP2H		SFR	0CBh	; Timer 2 Capture Register High
+TL2		SFR	0CCh	; Timer 2 Low Byte
+TH2		SFR	0CDh	; Timer 2 High Byte
+
+; Bit Addressable SFRs
+CY		BIT	0D7h	; Carry Flag (PSW.7)
+AC		BIT	0D6h	; Auxiliary Carry (PSW.6)
+F0		BIT	0D5h	; User Flag 0 (PSW.5)
+RS1		BIT	0D4h	; Register Bank Select 1 (PSW.4)
+RS0		BIT	0D3h	; Register Bank Select 0 (PSW.3)
+OV		BIT	0D2h	; Overflow Flag (PSW.2)
+P		BIT	0D0h	; Parity Flag (PSW.0)
+
+; Timer Control Bits
+TF1		BIT	8Fh	; Timer 1 Overflow Flag
+TR1		BIT	8Eh	; Timer 1 Run Control
+TF0		BIT	8Dh	; Timer 0 Overflow Flag
+TR0		BIT	8Ch	; Timer 0 Run Control
+IE1		BIT	8Bh	; External Interrupt 1 Edge Flag
+IT1		BIT	8Ah	; External Interrupt 1 Type
+IE0		BIT	89h	; External Interrupt 0 Edge Flag
+IT0		BIT	88h	; External Interrupt 0 Type
+
+; Serial Control Bits
+SM0		BIT	9Fh	; Serial Mode Control 0
+SM1		BIT	9Eh	; Serial Mode Control 1
+SM2		BIT	9Dh	; Serial Mode Control 2
+REN		BIT	9Ch	; Receiver Enable
+TB8		BIT	9Bh	; Transmit Bit 8
+RB8		BIT	9Ah	; Receive Bit 8
+TI		BIT	99h	; Transmit Interrupt Flag
+RI		BIT	98h	; Receive Interrupt Flag
+
+; Interrupt Enable Bits
+EA		BIT	0AFh	; Enable All Interrupts
+ES		BIT	0ACh	; Enable Serial Interrupt
+ET1		BIT	0ABh	; Enable Timer 1 Interrupt
+EX1		BIT	0AAh	; Enable External Interrupt 1
+ET0		BIT	0A9h	; Enable Timer 0 Interrupt
+EX0		BIT	0A8h	; Enable External Interrupt 0
+
+; Standard Interrupt Vector Addresses
+RESET		LABEL	0000h	; Reset Vector
+EXTI0		LABEL	0003h	; External Interrupt 0
+TIMER0		LABEL	000Bh	; Timer 0 Interrupt
+EXTI1		LABEL	0013h	; External Interrupt 1
+TIMER1		LABEL	001Bh	; Timer 1 Interrupt
+SINT		LABEL	0023h	; Serial Interrupt
+TIMER2		LABEL	002Bh	; Timer 2 Interrupt (Extended)

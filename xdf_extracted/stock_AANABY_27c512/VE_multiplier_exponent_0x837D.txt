@@ -1,0 +1,5 @@
+VE multiplier exponent
+Address: 0x837D
+Raw value: 2 (0x2)
+Equation: X
+Calculated value: 2.0000

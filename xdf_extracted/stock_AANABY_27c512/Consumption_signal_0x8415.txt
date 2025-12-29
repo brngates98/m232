@@ -1,0 +1,5 @@
+Consumption signal
+Address: 0x8415
+Raw value: 174 (0xAE)
+Equation: X
+Calculated value: 174.0000

@@ -1,0 +1,4 @@
+MAP sensor type (offset - read only)
+Address: 0x48
+Raw value: 4 (0x4)
+Equation: IF(X==1; 10; IF(X==2; -6.35764; IF(X==3;0.222013;6.9558)))

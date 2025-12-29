@@ -1,0 +1,5 @@
+Consumption signal, Multiplier*2
+Address: 0xCA6
+Raw value: 9 (0x9)
+Equation: X
+Calculated value: 9.0000

@@ -1,0 +1,5 @@
+HFM5 diagnosis - LOAD
+Address: 0x7F30
+Raw value: 2 (0x2)
+Equation: X
+Calculated value: 2.0000

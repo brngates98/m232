@@ -1,0 +1,5 @@
+Rev limit - fuel cut - engine speed exceeded
+Address: 0x8397
+Raw value: 1522 (0x5F2)
+Equation: 11875000/X
+Calculated value: 7802.2339

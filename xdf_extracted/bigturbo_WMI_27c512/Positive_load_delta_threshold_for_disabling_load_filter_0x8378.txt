@@ -1,0 +1,5 @@
+Positive load delta threshold for disabling load filter
+Address: 0x8378
+Raw value: 6 (0x6)
+Equation: X
+Calculated value: 6.0000

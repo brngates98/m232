@@ -1,0 +1,6 @@
+Injector minimum pulsewidth
+Address: 0x8377
+Raw value: 5 (0x5)
+Units: ms
+Equation: X/10
+Calculated value: 0.5000

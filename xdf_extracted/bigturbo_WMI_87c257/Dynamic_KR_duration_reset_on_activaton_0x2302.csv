@@ -1,0 +1,13 @@
+# Dynamic KR duration (reset on activaton)
+# Address: 0x2302
+# Size: 8x1
+# Units: s
+
+200
+175
+146
+116
+100
+70
+50
+20

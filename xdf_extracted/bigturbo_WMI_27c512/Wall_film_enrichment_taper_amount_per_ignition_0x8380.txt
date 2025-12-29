@@ -1,0 +1,5 @@
+Wall film enrichment taper amount per ignition
+Address: 0x8380
+Raw value: 10 (0xA)
+Equation: X
+Calculated value: 10.0000

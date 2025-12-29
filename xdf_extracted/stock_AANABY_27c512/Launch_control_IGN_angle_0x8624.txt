@@ -1,0 +1,5 @@
+Launch control IGN angle
+Address: 0x8624
+Raw value: 180 (0xB4)
+Equation: 0.75*(X-30)
+Calculated value: 112.5000
