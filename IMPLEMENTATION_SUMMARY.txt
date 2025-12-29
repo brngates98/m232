@@ -1,0 +1,92 @@
+================================================================================
+LOAD TO KPA CONVERSION - IMPLEMENTATION SUMMARY
+================================================================================
+
+PROBLEM ADDRESSED:
+-----------------
+The XDF file displayed LOAD values (0-255) in axis tables without converting
+them to actual pressure units (kPa). Users couldn't easily determine what 
+pressure a LOAD value represented (e.g., "10 LOAD is X kPa").
+
+SOLUTION IMPLEMENTED:
+--------------------
+Modified three LOAD axis tables in the XDF file to automatically convert and
+display LOAD values as kPa (kilopascals) based on the MAP sensor type.
+
+FILES MODIFIED:
+--------------
+1. TunerPro/m232.xdf - Main tuning definition file
+   - Updated 3 LOAD axis table definitions
+   - Added kPa unit labels
+   - Added conversion formulas
+
+2. .gitignore - Created to exclude backup files
+
+FILES CREATED:
+-------------
+1. LOAD_to_kPa_Conversion.md - Complete documentation
+   - Conversion formulas
+   - MAP sensor type reference
+   - Examples for all sensor types
+   - Technical implementation details
+
+TABLES UPDATED:
+--------------
+Table Name                    | Address | Values | Purpose
+------------------------------|---------|--------|---------------------------
+0x8D21 - 4x1 - Load (kPa)    | 0x8D23  | 4      | Boost control axis
+0x8D44 - 4x1 - Load (kPa)    | 0x8D46  | 4      | Wall film enrichment axis
+0xA188 - 6x1 - Load (kPa)    | 0xA18A  | 6      | General tuning axis
+
+TECHNICAL DETAILS:
+-----------------
+Conversion Formula: kPa = (LOAD × factor) + offset
+
+MAP Sensor Type (at address 0x48):
+  Type 1: 250kPa - factor=0.9804, offset=10.0
+  Type 2: 300kPa - factor=1.2918, offset=-6.36
+  Type 3: 300kPa - factor=1.2332, offset=0.22
+  Type 4: 400kPa - factor=1.6198, offset=6.96
+
+XDF Implementation:
+  - Added: <units>kPa</units>
+  - Added: <MATH equation="(X*THAT(8754;0;0;FALSE)) + THAT(18181;0;0;FALSE)">
+  - THAT(8754) = MAP sensor factor constant
+  - THAT(18181) = MAP sensor offset constant
+
+EXAMPLE CONVERSIONS (Type 4 - 400kPa Sensor):
+---------------------------------------------
+LOAD Value → kPa Value
+    10     →   23.2 kPa
+    17     →   34.5 kPa
+    26     →   49.1 kPa
+    34     →   62.0 kPa
+    76     →  130.1 kPa
+   162     →  269.4 kPa
+
+HOW TO USE:
+----------
+1. Open the bin file in TunerPro with the updated XDF
+2. Navigate to any of the three LOAD axis tables
+3. Values are now displayed in kPa automatically
+4. If you change the MAP sensor type (address 0x48), all LOAD values
+   will automatically update to show the correct kPa values
+
+BENEFITS:
+--------
+✓ No more manual conversion needed
+✓ Easy to understand actual manifold pressure
+✓ Dynamic - updates automatically based on sensor type
+✓ Consistent with existing VE table implementation
+✓ Fully documented for future reference
+
+VERIFICATION:
+------------
+✓ Code review completed - no issues found
+✓ Security scan completed - no vulnerabilities
+✓ Calculations verified for all sensor types
+✓ XDF syntax validated
+
+================================================================================
+For detailed information, see LOAD_to_kPa_Conversion.md
+================================================================================
